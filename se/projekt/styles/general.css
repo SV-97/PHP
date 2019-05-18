@@ -1,0 +1,62 @@
+body {
+    color: rgb(211, 241, 255);   
+}
+
+a {
+    color: rgb(204, 81, 81);
+}
+a:hover {
+    color: rgb(233, 171, 171);
+}
+a:visited {
+    color: rgb(134, 53, 53);
+}
+
+p {
+    float: none;
+}
+
+#foto {
+    border: 2px solid rgba(255, 255, 255, 0.582);;
+    padding: 1px;
+    border-radius: 5%;
+    max-width: 20%;
+    height: auto;
+    float: right;
+}
+
+#uml {
+    background-color: whitesmoke;
+    border: 2px double rgb(0, 0, 0);;
+    padding: 1px;
+    max-width: 40%;
+    height: auto;
+    float: right;
+    margin: 1em;
+}
+
+th {
+    border: 0.1em solid whitesmoke;
+}
+
+td {  
+    padding-left: 1em;
+    text-align: center;
+}
+
+table {
+    border: 0.1em solid whitesmoke;
+}
+
+#abbrev {
+    border-right: 0.1em solid whitesmoke;
+    padding-right: 1em
+}
+
+td ul {
+    text-align: center;
+}
+
+#tasks {
+    border: 0;
+}

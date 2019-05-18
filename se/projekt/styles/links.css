@@ -1,0 +1,20 @@
+a {
+    color: rgb(204, 81, 81);
+}
+a:hover {
+    color: rgb(233, 171, 171);
+}
+a:visited {
+    color: rgb(134, 53, 53);
+}
+
+body {
+    color: rgb(230, 228, 228);
+}
+
+img {
+    position: absolute;
+    bottom: 10%;
+    max-width: 90%;
+    height: auto;
+}

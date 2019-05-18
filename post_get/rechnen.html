@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rechner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <form action="rechnen.php" method="post">
+        <p>Operand 1: <input type="text" name="op1" /></p>
+        <p>Operand 2: <input type="text" name="op2" /></p>
+        <p>Operator:</p>
+        <select name="operator">
+            <option value="add">+</option>
+            <option value="sub">-</option>
+            <option value="mul">*</option>
+            <option value="div">/</option>
+            <option value="mod">%</option>
+        </select>
+        <p>Berechnen: <input type="submit" value="Berechnen"/></p>
+    </form>
+</body>
+</html>
